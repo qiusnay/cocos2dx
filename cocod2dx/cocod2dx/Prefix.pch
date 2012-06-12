@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'cocod2dx' target in the 'cocod2dx' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
