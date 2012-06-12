@@ -1,4 +1,4 @@
-uco
+cocos2dx
 ===
 
-uco repository on github
+cocos2dx repository on github
