@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E783D5B1586EFEC00187A94 /* qiusnay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E783D5A1586EFEC00187A94 /* qiusnay.cpp */; };
 		9E9829E41586E33D00B23B1F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9829E31586E33D00B23B1F /* QuartzCore.framework */; };
 		9E9829E61586E33D00B23B1F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9829E51586E33D00B23B1F /* OpenGLES.framework */; };
 		9E9829E81586E33D00B23B1F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9829E71586E33D00B23B1F /* OpenAL.framework */; };
@@ -182,6 +183,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E783D581586EFE100187A94 /* qiusnay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qiusnay.h; sourceTree = "<group>"; };
+		9E783D5A1586EFEC00187A94 /* qiusnay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qiusnay.cpp; sourceTree = "<group>"; };
 		9E9829DF1586E33D00B23B1F /* cocod2dx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocod2dx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9829E31586E33D00B23B1F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9E9829E51586E33D00B23B1F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1339,6 +1342,8 @@
 				9E982C281586E34500B23B1F /* AppDelegate.cpp */,
 				9E982C2A1586E34500B23B1F /* HelloWorldScene.h */,
 				9E982C2B1586E34500B23B1F /* HelloWorldScene.cpp */,
+				9E783D581586EFE100187A94 /* qiusnay.h */,
+				9E783D5A1586EFEC00187A94 /* qiusnay.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1567,6 +1572,7 @@
 				9E982C251586E34500B23B1F /* RootViewController.mm in Sources */,
 				9E982C291586E34500B23B1F /* AppDelegate.cpp in Sources */,
 				9E982C2C1586E34500B23B1F /* HelloWorldScene.cpp in Sources */,
+				9E783D5B1586EFEC00187A94 /* qiusnay.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1682,6 +1688,7 @@
 				9E982C311586E34500B23B1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
